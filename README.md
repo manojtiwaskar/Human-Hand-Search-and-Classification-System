@@ -1,5 +1,5 @@
 # Human Hand Search and Classification System
- This repository consists of the project regarding CSE 515 MultiMedia and Web databases course. The project was divided into 3 phases. The details aboout how to run the code of each phase has been mentioned below:
+ This repository consists of the project regarding CSE 515 MultiMedia and Web databases course. The project was divided into 3 phases. The details about the goals of each phase and how to run the code of each phase has been mentioned below:
  
  Phase 1:
  	The goal of phase 1 of the project is to get familiar with the 11k hand's image dataset and understand the concept of feature extraction and implementation of the two image feature extraction models. The two implemented models are Scale-invariant feature transformation and Local binary patterns, which helped in understanding the feature vector space/ feature descriptor of each implemented model. Once the features are extracted for the images, these features are used to retrieve the k similar images from the database for the given image. To find k similar images, the similarity/ distance functions are implemented, and the results obtained using these functions showed the importance of each function and characteristics of the images it captures.
