@@ -2,7 +2,7 @@
  This repository consists of the project regarding CSE 515 MultiMedia and Web databases course. The project was divided into 3 phases. The details aboout how to run the code of each phase has been mentioned below:
  
  Phase 1:
- 
+ 	The goal of phase 1 of the project is to get familiar with the 11k hand's image dataset and understand the concept of feature extraction and implementation of the two image feature extraction models. The two implemented models are Scale-invariant feature transformation and Local binary patterns, which helped in understanding the feature vector space/ feature descriptor of each implemented model. Once the features are extracted for the images, these features are used to retrieve the k similar images from the database for the given image. To find k similar images, the similarity/ distance functions are implemented, and the results obtained using these functions showed the importance of each function and characteristics of the images it captures.
 		 SIFT:
 		-- code contains all the source code files
 			   -- Start_Script.py : it is the start script to run the sift code 
@@ -42,7 +42,8 @@
 		
 
 Phase 2:
-
+	The project aims at developing a strong foundation in handling and processing high dimensional data and experiment with  various dimensionality reduction techniques like PCA, SVD, NMF and LDA and similarity and distance measures like euclidean distance and cosine similarity. The dataset used in this project is associated with the publication “Mahmoud Afifi. “11K Hands: Gender recognition and biometric identification using a large dataset of hand images.” M. Multimed Tools Appl (2019) 78: 20835.” The dataset has been downloaded from the following website. https://sites.google.com/view/11khands 
+	
 		-- code contains all the source code files
 				-- phase2_main_script.py : Script to perform all the tasks
 				-- ColorMoments.py : Code for CM feature description calculation and matching score
@@ -95,6 +96,7 @@ Phase 2:
 		
 
 Phase 3:
+	The third phase of the project focuses on interpreting and analyzing data that can support efficient indexing, clustering, classification and relevance feedback system of the data items. In this phase of the project, we are using Support Vector Machine (SVM), K Means Clustering, Decision Tree, Personalized Page Rank (PPR), Relevance Feedback System and Locality Sensitive Hashing. The various algorithms used are evaluated and visualized for each task. The dataset used in this project is associated with the publication “Mahmoud Afifi. “11K Hands: Gender recognition and biometric identification using a large dataset of hand images.” M. Multimed Tools Appl (2019) 78: 20835.” 
 
 		-- code contains all the source code files
 				-- phase3_main_script.py : Script to perform all the tasks
