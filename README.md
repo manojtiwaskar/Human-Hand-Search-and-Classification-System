@@ -136,4 +136,4 @@ Phase 3:
 			python phase3_main_script.py -t 5 -i Hand_0000674.jpg -m 20 -L 10 -k 10
 
 
-		Note:- Keep code, <input image directory> and csv at same level
+		Note:- Keep code, <input image directory> and csv in the same folder
